@@ -1,0 +1,238 @@
+/* --- layout --- */
+
+#telo {
+  text-align: center;
+}
+
+#main {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#hlavicka {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#vpravo {
+  width: 550px;
+  float: right;
+  padding: 10px;
+}
+
+#vlevo {
+  width: 150px;
+  float: left;
+  padding: 5px;
+  padding-left: 0px;
+}
+
+#paticka {
+  clear: both;
+  width: 100%;
+  padding: 10px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+hr {
+  display: none;
+}
+
+.link {
+  border-top: 1px solid #e5e5e5;
+  width: 80%;
+  text-align: center;
+  padding-top: 2px;
+}
+
+#vpravo,
+#vlevo {
+  font-size: 0.8em;
+  color: #444;
+}
+
+.mainbox {
+  text-align: center;
+  width: 300px;
+}
+
+/* --- t˜lo --- */
+
+body {
+  font-size: 100%;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  color: #444;
+}
+
+/* --- bloky --- */
+
+#vlevo h2 {
+  font-size: 1em;
+  background: #d1cfcf;
+  color: #fff;
+  padding: 2px;
+  padding-left: 5px;
+  margin-bottom: 0;
+  border: 1px solid #98a3a6;
+}
+
+#vlevo ul {
+  font-size: 0.9em;
+  margin-left: 15px;
+  margin-top: 3px;
+  margin-bottom: 1em;
+  list-style-type: none;
+}
+
+/* --- formul˜˜e --- */
+
+form {
+  padding: 0px;
+  margin: 0px;
+}
+
+input,
+textarea,
+select {
+  color: #000000;
+  font: 12px arial;
+  margin: 2px;
+}
+
+/* --- ˜l˜nky --- */
+
+.c_odk {
+  font-family: arial;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.c_min {
+  font: 11px arial;
+  color: #000;
+  margin-top: 2px;
+  padding-top: 0px;
+  text-align: right;
+  border-top: 1px solid black;
+}
+
+.c_per {
+  padding: 7px 0px 17px 0px;
+}
+
+.c_nadp {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* --- nadpisy --- */
+
+h1 {
+  font: 1.3em arial;
+  font-weight: bold;
+  color: #808080;
+}
+
+h1#extra {
+  font: 1.3em verdana;
+  font-weight: bold;
+  color: #808080;
+}
+
+h2 {
+  font: 1.2em arial;
+  font-weight: bold;
+  color: #808080;
+}
+
+h3 {
+  font: 1.1em arial;
+  font-weight: bold;
+  color: #808080;
+}
+
+/* --- odkazy --- */
+
+a {
+  color: #444;
+}
+
+a:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+/* --- ostatn˜ --- */
+
+img {
+  border: none;
+}
+
+table,
+td {
+  font: 12px arial;
+  vertical-align: top;
+}
+
+/* --- administrace --- */
+
+.vp_clanek {
+  border: 1px solid #98a3a6;
+  margin-top: 10px;
+}
+
+.vp_nadpis {
+  padding: 3px;
+  border-bottom: 1px solid #98a3a6;
+  padding-left: 6px;
+  font-weight: bold;
+  background: #d1cfcf;
+}
+
+.vp_perex {
+  padding: 5px;
+}
+
+.vp_odkazy {
+  padding: 5px;
+  text-align: right;
+}
+
+.vp_other {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.listovani {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.alert {
+  padding: 0;
+  padding-top: 5px;
+  height: 22px;
+  padding-left: 25px;
+  background: url(../icons/success.gif) no-repeat left;
+}
+
+.alert2 {
+  padding: 0;
+  padding-top: 5px;
+  height: 22px;
+  padding-left: 25px;
+  background: url(../icons/error.gif) no-repeat left;
+}
+
+.adm_nadpis {
+  color: #a8a8a8;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 3px;
+}
